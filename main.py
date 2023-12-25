@@ -50,8 +50,8 @@ def solvef():
         total += "x1 = " + str(x1) + "\n"
         D = ((bfinal * bfinal) - 4 * afinal * cfinal)
         if D > 0:
-            x2 = ((- bfinal / (2 * afinal)) + sqrt(D) / (2 * afinal))
-            x3 = ((- bfinal / (2 * afinal)) - sqrt(D) / (2 * afinal))
+            x2 = ((-1 * bfinal) + sqrt(D)) / (2 * afinal)
+            x3 = ((-1 * bfinal) - sqrt(D)) / (2 * afinal)
             total += 'x2 = ' + str(x2) + "\n" + 'x3 = ' + str(x3) + "\n"
         elif D == 0:
             x2 = (- bfinal / 2 * afinal)
